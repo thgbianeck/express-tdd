@@ -1,0 +1,67 @@
+{
+  "name": "express-ws",
+  "version": "1.0.0",
+  "description": "TDD with express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "jest --watch",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thgbianeck/express-tdd.git"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "bieniek",
+    "bianeck",
+    "node",
+    "express"
+  ],
+  "author": "Thiago Bianeck <thiagobianeck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thgbianeck/express-tdd/issues"
+  },
+  "homepage": "https://github.com/thgbianeck/express-tdd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "supertest": "^4.0.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "eqeqeq": "warn",
+      "prettier/prettier": "warn"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "endOfLine": "crlf"
+  }
+}
