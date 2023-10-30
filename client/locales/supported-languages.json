@@ -1,0 +1,18 @@
+[
+	{
+		"language": "en",
+		"flag": "https://flagsapi.com/US/flat/24.png"
+	},
+	{
+		"language": "tr",
+		"flag": "https://flagsapi.com/TR/flat/24.png"
+  },
+  {
+	"language": "br",
+	"flag": "https://flagsapi.com/BR/flat/24.png"
+},
+{
+  "language": "es",
+  "flag": "https://flagsapi.com/ES/flat/24.png"
+}
+]
