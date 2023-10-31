@@ -4,7 +4,7 @@
   "description": "TDD with express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app",
+    "start": "nodemon index",
     "test": "jest --watch",
     "lint": "eslint ."
   },
@@ -62,6 +62,6 @@
   "prettier": {
     "singleQuote": true,
     "printWidth": 120,
-    "endOfLine": "crlf"
+    "endOfLine": "auto"
   }
 }
